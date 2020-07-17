@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: black;
+}
+.MainHeader {
+    text-align: center;
+    background: gray;
+    overflow: hidden;
+    width: 1170px;
+    margin: auto;
+}
+.Logo{
+  float: left;
+  width: 585px;
+  margin-left: -178px;
+  margin-top: 20px;
+}
+.Logo img{
+    width: 61px;
+    margin-top: -6px;
+    margin-left: -7px;
+}
+.MenuBar{
+    float: right;
+    width: 585px;
+}
+.MenuBar ul{
+    display: inline-flex;
+    color: white;
+}
+.MenuBar ul li{
+    list-style: none;
+    margin: 15px;
+    padding: 8px;
+}
+.MenuBar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.Active,.MenuBar ul li:hover{
+    background: green;
+    border-radius: 5px;
+}
+#Home{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    background: #f9700fd4;
+}
+.Text{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    float: left;
+}
+.Text h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 25%;
+}
+.Text p {
+    padding: 10px;
+}
+.HeaderImage {
+    width: 600px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.HeaderImage img{
+    width: 350px;
+    height: 455px;
+    margin: auto;
+    margin-right: 116px;
+    margin-top: 2px;
+    border: 4px solid #0724f1;
+    padding: 5px;
+    float: right;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 16px 1px black;
+}
+.Icon {
+    text-align: center;
+    font-size: 40px;
+}
+.Icon a {
+	text-decoration: none;
+}
+#Home .Icon .fa{
+	font-size:35px;
+	color: #1688ffbf;
+	padding: 3px;
+}
+.contentimage {
+    background: #2e3ca2;
+    color: white;
+    width: 112px;
+    padding: 20px;
+    border-radius: 88px;
+    margin-top: 10px;
+}
+.Gellery{
+    text-align: center;
+    font-family: inherit;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    z-index: 1;
+    top: -81px;
+}
+section#DemoDesign {
+    padding: 140px;
+    background: #74912d;
+    width: 1170px;
+    margin: auto;
+    position: relative;
+}
+
+section#DemoDesign:before {
+    content: "";
+    width: 100%;
+    height: 243px;
+    background: #74912d;
+    position: absolute;
+    right: 0;
+    top: -130px;
+    transform: skewY(-10deg);
+}
+#DemoDesign .Gellery h1{
+    width: 378px;
+    background: #2f6314;
+    margin: auto;
+    border: 2px solid #7e907e;
+    border-radius: 7px;
+    box-shadow: 0px 0px 34px 1px #000000;
+    color: #e4e0e0;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+    top: -32px;
+}
+.Gellery1 #lineart{
+    transition: 1s;
+    padding: 5px;
+    opacity: 50%;
+    width: 200px;
+}
+#lineart:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    opacity: 100%;
+}
+.Gellery1 #illustration{
+    transition: 1s;
+    padding: 5px;
+    opacity: 50%;
+    width: 200px;
+}
+#illustration:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    opacity: 100%;
+    width: 200px;
+}
+.Gellery1 {
+    margin-top: -63px;
+}
+.Gellery1 #logo{
+    transition: 1s;
+    padding: 5px;
+    opacity: 50%;
+    width: 200px;
+    height: 196px;
+}
+#logo:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    opacity: 100%;
+}
+.Allimage{
+    display: inline-flex;
+    padding: 32px;
+    padding-top: 15px;
+    margin: auto;
+    color: #e4e0e0;
+}
+.lineart1{
+    background: #0000001f;
+    margin: 10px;
+}
+.illustration1{
+    background: #0000001f;
+    margin: 10px;
+}
+.logo{
+    background: #0000001f;
+    margin: 10px;
+    z-index: 1;
+}
+.lineart2{
+    background: #0000001f;
+    margin: 10px;
+}
+.illustration2{
+    background: #0000001f;
+    margin: 10px;
+}
+.logo1{
+    background: #0000001f;
+    margin: 10px;
+    z-index: 1;
+}
+section.MainServices {
+    width: 1170px;
+    margin: auto;
+    position: relative;
+    background: #836c5f;
+}
+section.MainServices:before {
+    content: "";
+    width: 100%;
+    height: 170px;
+    background: #836c5f;
+    position: absolute;
+    top: -86px;
+    right: 0px;
+    transform: skewY(-8deg);
+}
+#SectionTitle{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    padding: 16px;
+    background: #01579b;
+    width: 365px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 1px #000000;
+    position: relative;
+    top: 12px;
+    height: 75px;
+}
+#SectionTitle h1 span{
+    color: #FF9800;
+}
+.AllSection {
+    width: 360px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-left: 15px;
+    background: #01579B;
+    transition: 1s;
+    color: #c3b6b6;
+    margin-top: -30px;
+}
+.SectionIcon{
+    font-size: 50px;
+    float: left;
+    width: 80px;
+    color: #FF9800;
+    margin-top: 31px;
+    margin-left: 34px;
+}
+.SectionText{
+    width: 235px;
+    float: right;
+}
+p {
+    padding: 8px;
+    font-size: 12px;
+    font-family: arial;
+}
+h2 {
+    font-size: 25px;
+    font-family: arial black;
+}
+.AllContent {
+    width: 1170px;
+    display: inline-flex;
+    padding: 32px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 35px;
+    top: 32px;
+}
+.AllSection:hover{
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transform:  rotate(360deg);
+}
+section.MainClient {
+    width: 1170px;
+    margin: auto;
+    background: #05403a8f;
+    padding-top: 28px;
+}
+.ClientTitle {
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 31px;
+    padding: 9px;
+    background: #4c7664;
+    width: 306px;
+    margin: auto;
+    box-shadow: 0px 0px 4px 1px #000000;
+    margin-top: 23px;
+    border-radius: 3px;
+    top: 40px;
+    height: 70px;
+    font-family: math;
+}
+.AllClient {
+    width: 300px;
+    color: white;
+    padding: 28px;
+    margin-top: 70px;
+    height: 272px;
+    display: inline-block;
+    margin-left: 67px;
+}
+.ClientImage img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+    opacity: 100%;
+    transform: scale(0.9);
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.ClientText{
+    top: -254px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 250px;
+    height: 99px;
+    background: green;
+    opacity: 0%;
+    padding-top: 91px;
+    padding-bottom: 159px;
+}
+.ClientText:hover {
+    background: #0000008c;
+    opacity: 100%;
+    transform: scale(0.9);
+}
+.ContactTitle{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.ContactTitle h1{
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    color: #797878;
+}
+.ContactTitle h2{
+    font-size: 15px;
+    text-align: center;
+    color: #717070;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.FromControl{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+input{
+    height: 45px;
+}
+form .submit{
+    background: #b3ad8300;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background: #8c823f;
+    cursor: pointer;
+}
+.AllContactForm {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    background: #ff5e0024;
+}
+.ImageRight {
+    width: 500px;
+    float: right;
+    margin-top: 57px;
+    margin-left: 186px;
+    padding-bottom: 60px;
+}
+.ImageRight img {
+    width: 300px;
+    border: 1px solid #271f1f;
+    padding: 5px;
+}
+.ContactFormTitle {
+    width: 662px;
+    float: left;
+    padding-left: 45px;
+    padding-bottom: 60px;
+}
+footer{
+    background: #3c1313e0;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 15px;
+    margin: auto;
+    width: 1170px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Aobut {
+    font-family: arial;
+    width: 250px;
+    text-align: left;
+    margin: auto;
+    line-height: 25px;
+    color: #949494;
+    margin-left: 72px;
+}
+ul {
+    list-style: none;
+}
+.LastChilds {
+    width: 1170px;
+    margin: auto;
+    display: inline-flex;
+}
+.Aobut p {
+    font-size: 12px;
+    font-family: auto;
+    line-height: 17px;
+    padding: 0px;
+}
+.contactDetails {
+    font-family: arial;
+    width: 237px;
+    text-align: left;
+    margin: auto;
+    line-height: 25px;
+    color: #949494;
+    margin-left: 245px;
+}
+.contactDetails ul {
+    list-style: none;
+}
+.contactDetails ul li h2 {
+    font-size: 25px;
+    font-family: arial black;
+}
+.contactDetails ul li p {
+    font-size: 12px;
+    font-family: auto;
+    line-height: 17px;
+    padding: 0px;
+}
+.LastChilds1 {
+    width: 1170px;
+    display: flex;
+}
+.CopyRight {
+    color: #524f4f;
+    width: 585px;
+    text-align: left;
+    margin: auto;
+    float: left;
+    padding-top: 15px;
+    margin-left: 68px;
+}
+.AllIcons {
+    width: 659px;
+    float: right;
+}
+.AllIcons  .fa{
+	font-size:35px;
+	color:brown;
+	padding: 10px;
+}
